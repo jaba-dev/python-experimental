@@ -1,3 +1,6 @@
+when first time having to create requirements.txt run: pip freeze > requirements.txt
+/******************************/
+
 in order to run project:
 1. py -m venv .venv
 2. .venv\Scripts\activate
@@ -5,8 +8,8 @@ in order to run project:
 4. python run.py
 
 files and folders to exclude from repo:
-1. .venv 
-2. __pycache__ 
+1. .venv/ (here ending slash indicates that git has to ignore folder, but even witohut slash it would ignore all files and folders with given name)
+2. __pycache__/ 
 
 note:
 please remove existing .gitignore file before initializin git repository as it messes everything
